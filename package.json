@@ -43,7 +43,7 @@
     "sabre": "./sabre.js"
   },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
+    "preinstall": "npx force-resolutions",
     "lint": "eslint ./sabre.js ./lib ./test",
     "lint:fix": "eslint --fix ./sabre.js ./lib ./test",
     "test": "nyc mocha"
